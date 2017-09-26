@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Users like me, who have used the Internet and the various different online services for well over a decade now, might have - or most definitely have - accounts on services that have been forgotten age">
+<meta name="keywords" content="privacy, google">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Finding Out What the Web Knows About You">
+<meta property="og:url" content="https://juusokarlstrom.com/2017/09/26/google-yourself/index.html">
+<meta property="og:site_name" content="Ninnyhammer">
+<meta property="og:description" content="Users like me, who have used the Internet and the various different online services for well over a decade now, might have - or most definitely have - accounts on services that have been forgotten age">
+<meta property="og:updated_time" content="2017-09-26T20:32:03.702Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Finding Out What the Web Knows About You">
+<meta name="twitter:description" content="Users like me, who have used the Internet and the various different online services for well over a decade now, might have - or most definitely have - accounts on services that have been forgotten age">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>Finding Out What the Web Knows About You</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- rss -->
+    
+    
+</head>
+
+<body>
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/iuuso">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" href="/2017/07/13/Reading-recommendations-part-1/"><i class="fa fa-chevron-right" aria-hidden="true" onmouseover='$("#i-next").toggle();' onmouseout='$("#i-next").toggle();'></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up" aria-hidden="true" onmouseover='$("#i-top").toggle();' onmouseout='$("#i-top").toggle();'></i></a></li>
+        <li><a class="icon" href="#"><i class="fa fa-share-alt" aria-hidden="true" onmouseover='$("#i-share").toggle();' onmouseout='$("#i-share").toggle();' onclick='$("#share").toggle();return false;'></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://juusokarlstrom.com/2017/09/26/google-yourself/"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://juusokarlstrom.com/2017/09/26/google-yourself/&text=Finding Out What the Web Knows About You"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://juusokarlstrom.com/2017/09/26/google-yourself/&title=Finding Out What the Web Knows About You"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://juusokarlstrom.com/2017/09/26/google-yourself/&is_video=false&description=Finding Out What the Web Knows About You"><i class="fa fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Finding Out What the Web Knows About You&body=Check out this article: https://juusokarlstrom.com/2017/09/26/google-yourself/"><i class="fa fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://juusokarlstrom.com/2017/09/26/google-yourself/&title=Finding Out What the Web Knows About You"><i class="fa fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://juusokarlstrom.com/2017/09/26/google-yourself/&title=Finding Out What the Web Knows About You"><i class="fa fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://juusokarlstrom.com/2017/09/26/google-yourself/&title=Finding Out What the Web Knows About You"><i class="fa fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://juusokarlstrom.com/2017/09/26/google-yourself/&title=Finding Out What the Web Knows About You"><i class="fa fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://juusokarlstrom.com/2017/09/26/google-yourself/&name=Finding Out What the Web Knows About You&description="><i class="fa fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-Google-your-name"><span class="toc-number">1.</span> <span class="toc-text">1. Google your name</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Google-your-handle"><span class="toc-number">2.</span> <span class="toc-text">2. Google your handle</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-Use-Different-Search-Engines"><span class="toc-number">3.</span> <span class="toc-text">3. Use Different Search Engines</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Conclusion"><span class="toc-number">4.</span> <span class="toc-text">Conclusion</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index width mx-auto px2 my4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Finding Out What the Web Knows About You
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Ninnyhammer</span>
+      </span>
+      
+    <div class="postdate">
+        <time datetime="2017-09-26T17:32:03.000Z" itemprop="datePublished">2017-09-26</time>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/privacy-google/">privacy, google</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>Users like me, who have used the Internet and the various different online services for well over a decade now, might have - or most definitely have - accounts on services that have been forgotten ages ago. Forums, early social media sites, movie rating sites, you name it.</p>
+<p>You might have forgotten the sign-in credentials, and in the worst case scenario, also you might have either forgotten the email address or you don’t have the access to that email anymore.</p>
+<p>There’s also a possibility that if you have used Google or Facebook or other login provider for signing on to a mobile game or something, that that platform has an public forum or profile that you have forgotten to opt out of.</p>
+<p>One reason why this is important is that you could find information online about yourself that you don?~@~Yt want to be available anymore or the information is outdated. The most obvious reason is that you wouldn’t want to have that kind of information there that has no proper purpose for being out there.</p>
+<p>Arguably the most important phase in <a href="“https://en.wikipedia.org/wiki/Social_engineering_(security)”">social engineering</a> is the information gathering-phase. There’s <a href="“https://www.social-engineer.org/framework/information-gathering/“">two types of information available</a>: <a href="“https://www.social-engineer.org/framework/information-gathering/technical-methods-of-information-gathering/“">”Traditional”</a> and <a href="“https://www.social-engineer.org/framework/information-gathering/physical-methods-of-information-gathering/“">”non-traditional”</a>. This post focuses on the traditional method.</p>
+<p>The social-engineering.org’s defines the traditional method as follows: </p>
+<blockquote>
+<p>“Traditional” sources are typically open, publicly available sources<br>of information that don’t require any illegal activity to obtain.</p>
+</blockquote>
+<p>This post has suggestions on what kind of information you should be looking for and how you should be looking for them.</p>
+<h2 id="1-Google-your-name"><a href="#1-Google-your-name" class="headerlink" title="1. Google your name"></a>1. Google your name</h2><p>The most obvious first step is to google your name and browse through the results</p>
+<ul>
+<li>Different variations<ul>
+<li>Juuso Karlström, ?~@~\Juuso Karlström?~@~], Juuso + Karlström, Karlström, Juuso</li>
+</ul>
+</li>
+<li>If your name has changed, look for the previous name as well.</li>
+</ul>
+<p>If the results have sites or services that you are not using at the moment you should consider disabling the account. Or, if you want to get rid of it altogether, find out how you can delete the account. What?~@~Ys the point of being registered to a service that you don?~@~Yt have any use for?</p>
+<h2 id="2-Google-your-handle"><a href="#2-Google-your-handle" class="headerlink" title="2. Google your handle"></a>2. Google your handle</h2><p>If you have a specific handle that you use throughout different services (Instagram, Twitter, etc.) you also want to look for that as well.</p>
+<p>Also, before they were called handles, the name you identified with most services was called a nickname. If you remember having different nicknames in</p>
+<p>At this step you might want to check whether some of the social media accounts or others have links or information about who you are. For example, if you have a reddit account that you want to keep anonymous, view your profile as an outsider. What kind of information can be gathered from the posts that visible? By default, the posts are not hidden. That?~@~Ys one of the reasons why people use a lot of different throw-away accounts when participating in threads and posting information that could be used to link the information</p>
+<h2 id="3-Use-Different-Search-Engines"><a href="#3-Use-Different-Search-Engines" class="headerlink" title="3. Use Different Search Engines"></a>3. Use Different Search Engines</h2><p>There are differences on how different search engines behave. For example, <a href="https://duckduckgo.com/" target="_blank" rel="external">DuckDuckGo</a> uses a very different search algorithm than Google and has a somewhat different approach for searching the internet. Google is a <a href="“https://en.wikipedia.org/wiki/Semantic_search”">semantic search engine</a>, when DuckDuckGo is a <a href="“http://ieeexplore.ieee.org/abstract/document/7813724/“"> keyword search engine</a>.  Doing searches in different search engines most likely yields different results.</p>
+<p>Also note: when searching for your name in Google, make sure that you do it in incognito mode (or private mode, what ever the term is in your preferred browser). This makes sure, that you won’t get the results that are tailored to your likings.</p>
+<p>There are also search engines that are tailored specifically for searching people, and garnering information about individuals from different places. One of those places is <a href="“https://pipl.com/“">pipl.com</a>. It’s an interesting consept, be sure to check that out too.</p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>Times and situations change, so most likely the information you want to share with the public also changes.</p>
+<p>Take the matter at your own hands and decide yourself who kind of information about you is available to the public. The services that you have been using propaply know much more stuff about you that you would be willing to bet on, but that’s a topic for another post.</p>
+<p>References<br><a href="https://www.social-engineer.org/framework/information-gathering/" target="_blank" rel="external">https://www.social-engineer.org/framework/information-gathering/</a><br><a href="http://observer.com/2015/11/5-tips-for-cleaning-up-google-search-results-for-your-name/" target="_blank" rel="external">http://observer.com/2015/11/5-tips-for-cleaning-up-google-search-results-for-your-name/</a><br><a href="https://www.wordfence.com/learn/understanding-social-engineering-attacks/" target="_blank" rel="external">https://www.wordfence.com/learn/understanding-social-engineering-attacks/</a><br><a href="https://www.social-engineer.org/framework/information-gathering/" target="_blank" rel="external">https://www.social-engineer.org/framework/information-gathering/</a></p>
+
+  </div>
+</article>
+
+
+
+    </div>
+    
+      <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/iuuso">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-Google-your-name"><span class="toc-number">1.</span> <span class="toc-text">1. Google your name</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Google-your-handle"><span class="toc-number">2.</span> <span class="toc-text">2. Google your handle</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-Use-Different-Search-Engines"><span class="toc-number">3.</span> <span class="toc-text">3. Use Different Search Engines</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Conclusion"><span class="toc-number">4.</span> <span class="toc-text">Conclusion</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://juusokarlstrom.com/2017/09/26/google-yourself/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=https://juusokarlstrom.com/2017/09/26/google-yourself/&text=Finding Out What the Web Knows About You"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://juusokarlstrom.com/2017/09/26/google-yourself/&title=Finding Out What the Web Knows About You"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://juusokarlstrom.com/2017/09/26/google-yourself/&is_video=false&description=Finding Out What the Web Knows About You"><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Finding Out What the Web Knows About You&body=Check out this article: https://juusokarlstrom.com/2017/09/26/google-yourself/"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=https://juusokarlstrom.com/2017/09/26/google-yourself/&title=Finding Out What the Web Knows About You"><i class="fa fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=https://juusokarlstrom.com/2017/09/26/google-yourself/&title=Finding Out What the Web Knows About You"><i class="fa fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://juusokarlstrom.com/2017/09/26/google-yourself/&title=Finding Out What the Web Knows About You"><i class="fa fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=https://juusokarlstrom.com/2017/09/26/google-yourself/&title=Finding Out What the Web Knows About You"><i class="fa fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://juusokarlstrom.com/2017/09/26/google-yourself/&name=Finding Out What the Web Knows About You&description="><i class="fa fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      <ul>
+        <li id="toc"><a class="icon" href="#" onclick='$("#toc-footer").toggle();return false;'><i class="fa fa-list fa-lg" aria-hidden="true"></i> TOC</a></li>
+        <li id="share"><a class="icon" href="#" onclick='$("#share-footer").toggle();return false;'><i class="fa fa-share-alt fa-lg" aria-hidden="true"></i> Share</a></li>
+        <li id="top" style="display:none"><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a></li>
+        <li id="menu"><a class="icon" href="#" onclick='$("#nav-footer").toggle();return false;'><i class="fa fa-bars fa-lg" aria-hidden="true"></i> Menu</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+    
+    <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2017 Juuso Karlström
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/iuuso">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
+<!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/lib/meslo-LG/styles.css">
+<link rel="stylesheet" href="/lib/justified-gallery/justifiedGallery.min.css">
+
+
+<!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- Google Analytics -->
+
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-96611973-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+<!-- Disqus Comments -->
+
+
